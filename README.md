@@ -25,7 +25,7 @@ An end-to-end IoT shipment monitoring system designed to track high-value or fra
 
 **Web Backend (Full-Stack):**
 - Python / Django Framework (MVC Architecture)
-- SQLite3 Database
+- MySQL Database
 - Frontend: HTML5, CSS (Bootstrap), Google Maps API
 
 ## System Architecture

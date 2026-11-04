@@ -1,0 +1,19 @@
+# OS (macOS)
+.DS_Store
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+venv/
+env/
+.venv/
+
+# Django
+db.sqlite3
+*.log
+media/
+staticfiles/
+
+# Security & API Keys
+.env
+secrets.json

@@ -2,7 +2,7 @@
 
 > 🚧 **Status: Work in Progress** - Currently in active development during the university semester.
 
-> 🎓 **Academic Project** - End-to-End IoT Telemetry & Web Dashboard
+> **Academic Project** - End-to-End IoT Telemetry & Web Dashboard
 
 An end-to-end IoT shipment monitoring system designed to track high-value or fragile cargo. A Raspberry Pi edge node collects real-time GPS coordinates, acceleration (shock/vibration), and environmental data (temperature/humidity). The telemetry is streamed via MQTT to a cloud platform and visualized in a custom Python/Django web application featuring a real-time dashboard and mapping integration.
 
@@ -27,6 +27,10 @@ An end-to-end IoT shipment monitoring system designed to track high-value or fra
 - Python / Django Framework (MVC Architecture)
 - SQLite3 Database
 - Frontend: HTML5, CSS (Bootstrap), Google Maps API
+
+## System Architecture
+![System Architecture Diagram](docs/images/system_architecture.drawio.png)
+
 
 ## 3. System Data Flow
 1. **Data Acquisition:** Python scripts on the Raspberry Pi read sensor registries via the I2C bus and parse NMEA sentences from the serial GPS module.
